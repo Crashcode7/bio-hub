@@ -1,4 +1,8 @@
 # 🚀 Bio Hub Glassmorphism Template
+![License](https://img.shields.io/github/license/crashcode7/bio-hub?style=flat-square&color=blue)
+![Stars](https://img.shields.io/github/stars/crashcode7/bio-hub?style=flat-square&color=yellow)
+![Forks](https://img.shields.io/github/forks/crashcode7/bio-hub?style=flat-square&color=orange)
+![Issues](https://img.shields.io/github/issues/crashcode7/bio-hub?style=flat-square&color=red)
 
 [ English Version Below | Versi Bahasa Indonesia di Bawah ]
 
