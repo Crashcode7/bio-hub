@@ -9,14 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <!-- Tombol Switch Mode -->
+    <button id="theme-toggle" class="theme-btn">
+    <i id="theme-icon" class="fas fa-sun"></i>
+    </button>
 
+    <!-- Music Player Floating Button -->
+    <button id="music-btn" class="music-btn" aria-label="Toggle Music">
+    <i class="fas fa-music"></i>
+    </button>
+    <audio id="bg-music" loop src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3"></audio>
+  
     <div class="container">
         <!-- ==================== HEADER PROFILE ==================== -->
         <header class="profile">
             <!-- EDIT HERE: Change avatar image URL or replace with your local image file (e.g., avatar.jpg) -->
             <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop" alt="Profile Picture" class="avatar-img">
             <!-- EDIT: Change your name and description here-->
-            <h1>Nama Kamu</h1>
+            <h1>Your name</h1>
             <p>Student & Web Developer</p>
             
             <!-- Copy/Share Link Button -->
@@ -29,19 +39,19 @@
         <main class="links-container">
             <!-- EDIT: Change href with your URL and change The button text -->
             <a href="https://example.com" class="link-card" target="_blank">
-                <i class="fas fa-globe"></i> Website Utama     <!-- Change The button text here -->
+                <i class="fas fa-globe"></i> Main Website     <!-- Change The button text here -->
             </a>
             <a href="https://example.com" class="link-card" target="_blank">
-                <i class="fas fa-book"></i> Catatan & Catatan Belajar
+                <i class="fas fa-book"></i> Note 
             </a>
             <a href="https://github.com" class="link-card" target="_blank">
-                <i class="fab fa-github"></i> Portofolio GitHub
+                <i class="fab fa-github"></i> Github
             </a>
             <a href="https://wa.me/628123456789" class="link-card" target="_blank">
-                <i class="fas fa-comments"></i> Hubungi Saya
+                <i class="fas fa-comments"></i> Contact Me 
             </a>
             <a href="https://instagram.com" class="link-card" target="_blank">
-                <i class="fab fa-instagram"></i> Instagram Utama
+                <i class="fab fa-instagram"></i> Instagram
             </a>
         </main>
 
